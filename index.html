@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./layout.css">
+    <title>Code Quiz</title>
+</head>
+
+<body>
+<header>
+    <h1>Code Quiz</h1>
+    <a href=highscore.html>Highscores</a>
+</header>
+
+<section>
+
+    <div id="intro" class="intro">
+        <h1>Challenge: Coding Quiz</h1>
+        <p>Test your coding knowledge. Answer the following questions as fast as possible. Try as many times as you'd like. Your score will be saved.</p>
+        <button id="start">Start</button>
+    </div>
+
+    
+    <div id="questions" class="hide">
+        <h2 id="question-title"></h2>
+        <div id="options" class="options"></div>
+    </div>
+    
+    <div id="validation" class="validation hide"></div>
+    
+    <div id="done-screen" class="hide">
+        <h2>All done!</h2>
+        <p>Your final score is <span id="final-score"></span>.</p>
+        <label for="initials">Enter initials:</label>
+        <input type="text" id="initials" />
+        <button id="submit">Submit</button>
+    </div>   
+</section>
+
+<script src="script2.js"></script>
+
+</body>
+</html>
